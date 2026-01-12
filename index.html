@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,4 +48,55 @@
 
     <script src="main.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container">
+        <form id="user-form" class="user-form">
+            <h1>Login page</h1>
+            <p>Create Your ID</p>
+            <div class="inputs">
+                <!-- name -->
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" placeholder="Fill your Name" class="bgColor" required>
+                <!-- email -->
+                <label for="email">Email address :</label>
+                <input type="email" id="email" name="email" placeholder="Fill your Email address" class="bgColor" required>
+                <!-- phone number -->
+                <label for="number">Phone Number :</label>
+                <input type="tel" id="number" name="number" placeholder="Fill your phone number" autocomplete="Hi how are you" class="bgColor" required>
+                <!-- Subject -->
+                <!-- <label for="subject">Subject :</label>
+                <input type="text" id="subject" name="subject" placeholder="Fill your subject" class="bgColor" required> -->
+                <!-- Gender -->
+                <!-- <label for="Gender">Gender :</label> 
+                <div class="genderInput">
+                    <input type="radio" name="Gender" value="Male" >Male
+                    <input type="radio" name="Gender" value="Female" >Female
+                </div> -->
+                <!-- message -->
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" placeholder="Fill your Message" class="bgColor" required></textarea>
+                <p></p>
+                <p id="counter"></p>
+                <!-- submit -->
+            </div>
+            <button type="submit" class="bgColor">Send Message</button>
+        </form>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+>>>>>>> 41d5d4d7cdf2530f047366fc2a8ae370af03030a
 </html>
