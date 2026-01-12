@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -35,47 +34,3 @@ body{
 .bgColor:focus{
     background-color: white;
 }
-
-
-
-=======
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: "Arimo", sans-serif;
-    font-optical-sizing: auto;
-    margin: 10px;
-}
-.user-form{
-    padding: 20px;
-    border: 1px solid red;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-    color: palevioletred;
-} 
-.inputs{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-    text-align: center;
-}
-
-.bgColor{
-    background-color: pink;
-    padding: 10px;
-    border: 1px solid palevioletred;
-    border-radius: 10px;
-}
-.bgColor:focus{
-    background-color: white;
-}
-
-
-
->>>>>>> 41d5d4d7cdf2530f047366fc2a8ae370af03030a
